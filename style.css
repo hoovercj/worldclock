@@ -1,0 +1,23 @@
+body {
+	background-color: #5696BC;
+}
+
+.clock {
+	height: 100px;
+	margin: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: courier, monospace;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+}
+
+#clock1 {
+	background-color: #E04836;
+
+}
+
+#clock2 {
+	background-color: #2F5168;
+}
