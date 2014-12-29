@@ -8,7 +8,7 @@ $(document).ready(function() {
 		var currentTime = new Date();
 		offset = offset + currentToGMT();
 		var meridian = 'AM';
-		var hours = (currentTime.getHours() + offset) % 24;
+		var hours = (currentTime.getHours() + offset + 24) % 24;
 		if (hours > 12) {
 			hours = hours - 12;
 			meridian = 'PM';
@@ -27,8 +27,7 @@ $(document).ready(function() {
 		var clockTitleDiv = document.getElementById(div+'-title');		
 		clockTitleDiv.innerText = location;
 		var clockTimeDiv = document.getElementById(div+'-time');
-		clockTimeDiv.innerText = hours + ':' + minutes + ':' + seconds + ' ' + meridian;
-
+		clockTimeDiv.innerText = hours + ':' + minutes + ':' + seconds + ' ' + meridian;	
 	}
 
 	function currentToGMT() {
