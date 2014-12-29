@@ -2,6 +2,12 @@ body {
 	background-color: #5696BC;
 }
 
+.footer {
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
 .ui.segment.clock {
 	font-family: courier, monospace;
 	text-align: center;
