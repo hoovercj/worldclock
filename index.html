@@ -1,11 +1,25 @@
 <head>
+	<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.1/semantic.min.css'>	
 	<link rel='stylesheet' type='text/css' href='style.css'>
 </head>
 <body>
-<div id='clock1' class='clock'></div>
 
-<div id='clock2' class='clock'></div>
+<div class='ui centered two column padded doubling grid'>
+	<div id='clock1' class='center aligned column'>
+	    <div id='clock1' class='ui segment clock'>
+			<div id='clock1-title'></div>
+			<div id='clock1-time'></div>
+		</div>
+	</div>
+	<div id='clock2' class='center aligned column'>
+		<div id='clock2' class='ui segment clock'>
+			<div id='clock2-title'></div>
+			<div id='clock2-time'></div>
+		</div>
+	</div>
+</div>
 
-<script src="jquery.js"></script>
+<script src='jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.1/semantic.min.js'></script>
 <script src='app.js'></script>
 </body>

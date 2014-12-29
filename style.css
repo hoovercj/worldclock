@@ -2,22 +2,21 @@ body {
 	background-color: #5696BC;
 }
 
-.clock {
-	height: 100px;
-	margin: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+.ui.segment.clock {
 	font-family: courier, monospace;
 	text-align: center;
-	color: white;
-	font-size: 100px;
+	color: white;	
+	font-size: 50px !important;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
 }
 
-#clock1 {
+#clock1.ui.segment.clock {
 	background-color: #E04836;
-
 }
 
-#clock2 {
+#clock2.ui.segment.clock {
 	background-color: #2F5168;
 }

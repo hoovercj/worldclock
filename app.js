@@ -24,8 +24,11 @@ $(document).ready(function() {
 		if (seconds < 10) {
 			seconds = '0' + seconds;
 		}
-		var clockDiv = document.getElementById(div);
-		clockDiv.innerText = location + ' ' + hours + ':' + minutes + ':' + seconds + ' ' + meridian;
+		var clockTitleDiv = document.getElementById(div+'-title');		
+		clockTitleDiv.innerText = location;
+		var clockTimeDiv = document.getElementById(div+'-time');
+		clockTimeDiv.innerText = hours + ':' + minutes + ':' + seconds + ' ' + meridian;
+
 	}
 
 	function currentToGMT() {
