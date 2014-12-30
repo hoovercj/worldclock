@@ -2,6 +2,8 @@ $(document).ready(function() {
 	function displayTime() {
 		displayTimerHelper(1, 'clock1', 'Spain');
 		displayTimerHelper(-6, 'clock2', 'Iowa');
+		displayTimerHelper(-8, 'clock3', 'Seattle');
+		displayTimerHelper(-4, 'clock4', 'New York');
 	}
 
 	function displayTimerHelper(offset, div, location) {
