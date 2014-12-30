@@ -26,3 +26,11 @@ body {
 #clock2.ui.segment.clock {
 	background-color: #2F5168;
 }
+
+#clock3.ui.segment.clock {
+	background-color: #F39D41;
+}
+
+#clock4.ui.segment.clock {
+	background-color: #9881F5;
+}
